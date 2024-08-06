@@ -11,9 +11,8 @@ def some_function(param1, param2):
 
 # Exemplo de função que tem uma linha longa para testar a configuração max-line-length
 def long_line_example():
-    very_long_string = """This is an example of a very long string that should exceed the max line
-    length and thus trigger
-    formatting or linting issues in order to test the pre-commit hooks properly."""
+    very_long_string = """This is an example of a very long string that should exceed the max line length and thus
+    trigger formatting or linting issues in order to test the pre-commit hooks properly."""
     print(very_long_string)
 
 
