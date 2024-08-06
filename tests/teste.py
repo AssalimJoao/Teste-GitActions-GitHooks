@@ -1,5 +1,7 @@
 # test_code.py
 
+import re
+
 
 # Exemplo de código que precisa de formatação
 def some_function(param1, param2, a):
