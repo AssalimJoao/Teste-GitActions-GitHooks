@@ -1,5 +1,7 @@
 # test_code.py
 
+import re
+import time
 
 # Exemplo de código que precisa de formatação
 def some_function(param1, param2):
@@ -21,6 +23,7 @@ def long_line_example():
 def unused_variables():
     a = 10
     b = 20
+    c = 2
     return a + b
 
 
