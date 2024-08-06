@@ -1,10 +1,12 @@
 repos:
+  #  Formatador de Código
   - repo: https://github.com/psf/black
     rev: 23.3.0
     hooks:
       - id: black
         language_version: python3.12
 
+  # Ordena importações de arquivos
   - repo: https://github.com/pycqa/isort
     rev: 5.12.0
     hooks:
@@ -13,13 +15,8 @@ repos:
         entry: isort
         language: python
         types: [python]
-
-  - repo: https://github.com/pycqa/flake8
-    rev: 6.0.0
-    hooks:
-      - id: flake8
-        args: [--max-line-length=120]
   
+  # Ferramenta de linting para avaliar qualidade do código, busca erros, estilos e padrões de código
   - repo: https://github.com/PyCQA/pylint
     rev: v3.2.6
     hooks:

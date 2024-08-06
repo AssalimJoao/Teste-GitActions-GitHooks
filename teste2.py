@@ -19,6 +19,7 @@ def long_line_example():
 # Função com variáveis não utilizadas para testar o linting
 def unused_variables():
     a = 10
+
     b = 20
     return a + b
 
